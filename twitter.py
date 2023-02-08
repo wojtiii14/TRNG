@@ -47,3 +47,6 @@ def generate():
 
     return int(result[random.randint(0, len(result) - 1)])
 
+number = generate()
+print(number)
+
